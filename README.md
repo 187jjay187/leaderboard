@@ -4,8 +4,8 @@
 
 ## Recent Changes
 
+- fixed linter errors for HTML, CSS & JavaScript
 - added successful webpackage
-- added linters for HTML, CSS & JavaScript
 - added basic html stucture for project
 - added basic css to match min design standards
 
