@@ -1,0 +1,76 @@
+<html lang="en">
+
+<!-- Basic head document Section starts here -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/index.css">
+    <title>Leaderboard</title>
+    <!-- <script src="https://unpkg.com/lodash@4.17.20"></script> -->
+<script defer src="index.js"></script></head>
+
+<!-- Basic head document Section ends here -->
+
+<!-- Body Section starts here -->
+<body>
+
+    <!-- header Section starts here -->
+    
+    <header><h1>Leaderboard</h1></header>
+
+    <!-- header Section ends here -->
+
+    <!-- main Section starts here -->
+    <main class="container-grid">
+            <!-- Recent Score Section starts here -->
+        <div class="recentScoresList">
+
+                <!-- score title Section starts here -->
+        <div class="titleheading">
+            <h2>Recent Scores</h2>
+            <button class="refreshBtn">Refresh</button>
+        </div>
+                <!-- score title Section ends here -->
+
+        <div class="Scoreboarder">
+    <!-- ul/li Section starts here -->
+
+            <ul class="scoreBoard">
+            <li>UserName: 10</li>
+            <li>UserName: 20</li>
+            <li>UserName: 30</li>
+            <li>UserName: 40</li>
+            </ul>
+
+    <!-- ul/li Section ends here -->
+
+        </div>
+        </div>
+<div>
+    <!-- add to score Section starts here -->
+    <div class="addToScore">
+            <!-- add to scoreboard title starts/ends here -->
+        <h2>Add To Scoreboard</h2>
+
+            <!-- form section starts here -->
+
+        <form class="inputscore" method="post" action="#">
+            <input type="text" name="user" placeholder="User Name" required>
+            <input type="number" name="score" placeholder="User Score" required>
+            <!-- button section starts here -->
+            <button class="submitionBtn" type="submit">Submit</button>
+            <!-- button section ends here -->
+
+            <!-- form section starts here -->
+        </form>
+        <p class="successMsg"></p>
+    </div>
+        <!-- add to score Section ends here -->
+</div>
+
+    <script src="/dist/main.js"></script>
+    </main>
+</body>
+</html>
