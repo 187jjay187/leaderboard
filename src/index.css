@@ -13,8 +13,17 @@ html {
   font-family: cursive;
 }
 
+/* body */
 body {
-  background-color: white;
+  background-color: hsla(195, 100%, 50%, 1);
+  background-image:
+    radial-gradient(at 95% 8%, hsla(174, 82%, 61%, 1) 0, transparent 50%),
+    radial-gradient(at 51% 18%, hsla(306, 83%, 57%, 1) 0, transparent 50%),
+    radial-gradient(at 64% 57%, hsla(237, 76%, 51%, 1) 0, transparent 50%),
+    radial-gradient(at 26% 63%, hsla(180, 100%, 67%, 1) 0, transparent 50%),
+    radial-gradient(at 14% 100%, hsla(0, 100%, 54%, 1) 0, transparent 50%),
+    radial-gradient(at 43% 76%, hsla(285, 77%, 60%, 1) 0, transparent 50%),
+    radial-gradient(at 10% 12%, hsla(102, 100%, 75%, 1) 0, transparent 50%);
 }
 
 header {
@@ -58,11 +67,17 @@ h2 {
 
 /* boarder container */
 .Scoreboarder {
+  background-color: white;
   margin-top: 3rem;
   min-height: 20rem;
   overflow-y: scroll;
   border: 2px solid black;
   min-width: 42rem;
+}
+
+/* list items */
+.list-item:nth-of-type(even) {
+  background-color: rgb(230, 230, 230);
 }
 
 /* add to score container */
@@ -97,6 +112,11 @@ button {
   cursor: pointer;
   font-size: 1.6rem;
   transition: transform 0.3s;
+}
+
+button:active {
+  font-size: 1.4rem;
+  transform: scale(0.95);
 }
 
 /* form input fields */
