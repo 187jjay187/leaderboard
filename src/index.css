@@ -8,7 +8,7 @@
 }
 
 /* html */
-html {
+html {  
   font-size: 10px;
   font-family: cursive;
 }
@@ -25,100 +25,101 @@ header {
 
 /* first title */
 h1 {
-  font-size: 60px;
-  font-family: cursive;
-}
+    font-size: 60px;
+    font-family: cursive;
+  }
+  
+  /* second titles */
+  h2 {
+      font-size: 40px;
+  }
+  
+  /* main container */
+  .container-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1rem;
+      justify-content: center;
+      margin: 2rem 40rem;
+  }
 
-/* second titles */
-h2 {
-  font-size: 40px;
-}
+  /* recent score list */
+  .recentScoresList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* refresh button */
+  .refreshBtn {
+    width: 10rem;
+    height: 4rem;
+  }
+  
+  /* boarder container */
+  .Scoreboarder {
+      margin-top: 3rem;
+      min-height: 20rem;
+      overflow-y: scroll;
+      border: 2px solid black;
+      min-width: 42rem;
+  }
 
-/* main container */
-.container-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 1rem;
-  justify-content: center;
-  margin: 2rem 40rem;
-}
+   /* add to score container */
+  .addToScore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-/* recent score list */
-.recentScoresList {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* refresh button */
-.refreshBtn {
-  width: 10rem;
-  height: 4rem;
-}
-
-/* boarder container */
-.Scoreboarder {
-  margin-top: 3rem;
-  min-height: 20rem;
-  overflow-y: scroll;
-  border: 2px solid black;
-  min-width: 42rem;
-}
-
-/* add to score container */
-.addToScore {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* title */
-.titleheading {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  align-items: center;
-}
-
-/* form */
-.inputScore {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  width: 100%;
-  margin-top: 3rem;
-}
-
-/* all around button */
-button {
-  padding: 3px;
-  border: 2px solid black;
-  box-shadow: 3px 3px;
-  cursor: pointer;
-  font-size: 1.6rem;
-  transition: transform 0.3s;
-}
-
-/* form input fields */
-form input {
-  width: 35rem;
-  margin: 0 auto;
-  height: 4rem;
-  padding-left: 1rem;
-  border: 2px solid black;
-  font-size: 1.6rem;
-}
-
-/* submit button */
-.submitionBtn {
-  width: 20%;
-  height: 4rem;
-  align-self: center;
-}
+  /* title */
+  .titleheading {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  /* form */
+  .inputScore {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  /* all around button */
+  button {
+    padding: 3px;
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    transition: transform 0.3s;
+  }
+   
+  /* form input fields */
+  form input {
+    width: 35rem;
+    margin: 0 auto;
+    height: 4rem;
+    padding-left: 1rem;
+    border: 2px solid black;
+    font-size: 1.6rem;
+  }
+  
+  /* submit button */
+  .submitionBtn {
+    width: 20%;
+    height: 4rem;
+    align-self: center;
+  }
 
 /* media queries */
-@media screen and (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: 1fr;
+    @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
   }
-}
+  
