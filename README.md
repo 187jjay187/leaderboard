@@ -1,14 +1,113 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Leaderboard Project
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-### Linter Tests
+Modify this file to match your project and remove sections that don't apply.
 
-- `npx hint .`
-- `npx stylelint "**/*.{css,scss}"`
-- `npx eslint .`
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Leaderboard Project] <a name="about-project"></a>
+
+> Learning objectives for this project was to create a leaderboard, 
+and with an api that stores, score inputs
+
+**[Leaderboard Project]** is a live scoreboard/Leaderboard api
+
+## 🛠 Built With <a name="built-with"></a>
+- HTML
+- CSS
+- Javascript (ES6)
+
+### Tech Stack <a name="tech-stack"></a>
+
+> The tech stack, used in this project is as follows:
+
+- HTML
+- CSS
+- JavaScript
+- API's
+- Webpack
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> 1-3 key features of the application.
+
+- **[load/display scores from the api]**
+- **[add scores to the api]**
+- **[button functionality and input field required]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](http://localhost:8080/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+
+In order to run this project you need:
 
 - Have a local version control like Git. Which is a open source distributed version control system designed for source code management
 - A text editor (e.g Visual Studio Code, Vim, Atom & Sublime.)
@@ -16,7 +115,9 @@
 - Live Server which is a web extension that helps you to live reload feature for dynamic content (PHP, Node.js, ASPNET)
 - Download waves to check project accessibilty
 
-### Getting Started
+### Setup
+
+Clone this repository to your desired folder:
 
 To get a local copy up and running follow these simple example steps.
 
@@ -25,7 +126,9 @@ To get a local copy up and running follow these simple example steps.
   npm install npm@latest -g
   ```
 
-### Installation
+### Install
+
+Install this project with:
 
 1. Clone the repo by running the command
    ```sh
@@ -52,30 +155,18 @@ To get a local copy up and running follow these simple example steps.
    npm start
    ```
 
-## Recent Changes
+### Usage
 
-- fixed linter errors for HTML, CSS & JavaScript - (current)
-- successfully hit the api - (current)
-- added button funtionality - (current)
-- added successful webpackage - (previous)
-- added basic html stucture for project - (previous)
-- added basic css to match min design standards - (previous)
+To run the project, execute the following command:
 
-## Built With
+1. Please run the following to render on the browser
+   ```sh
+   npm start
+   ```
 
-- HTML
-- CSS
-- Javascript (ES6)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## List Of Technologies
-
-- Visual Studio Code
-- Github
-
-
-
-## Authors
+<!-- AUTHORS -->
 
 👤 **Jerome**
 
@@ -83,25 +174,68 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/187jjay187)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/jerome-osman-137605a4)
 
-## Collaborator
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[css to complete styling]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/187jjay187/leaderboard/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Microverse 
+> Please give this project repo a star⭐️
 
-## 📝 License
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [what are the prerequisites]
+
+- **[Question_2]**
+
+  - [how do i go about installing it]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
 
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
