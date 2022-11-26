@@ -54,10 +54,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## Recent Changes
 
-- fixed linter errors for HTML, CSS & JavaScript
-- added successful webpackage
-- added basic html stucture for project
-- added basic css to match min design standards
+- fixed linter errors for HTML, CSS & JavaScript - (current)
+- successfully hit the api - (current)
+- added button funtionality - (current)
+- added successful webpackage - (previous)
+- added basic html stucture for project - (previous)
+- added basic css to match min design standards - (previous)
 
 ## Built With
 
